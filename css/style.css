@@ -120,6 +120,12 @@ blockquote {
     text-align: right;
 }
 
+.image {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+}
+
 footer p,
 footer a {
     font-size: 13px;
