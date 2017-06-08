@@ -6,6 +6,10 @@ body {
     padding-bottom: 60px;
 }
 
+html,body {
+    height: 100%;
+}
+
 .container {
     background: #fff;
     padding: 70px 75px;
@@ -121,12 +125,23 @@ blockquote {
 }
 
 .image {
-    vertical-align: middle;
-    width: 150px;
-    height: 150px;
+    padding: 15px 0;
+    text-align: center
 }
 
 footer p,
 footer a {
     font-size: 13px;
+}
+
+.projectlinks {
+    height: 100%;
+    display: table-cell;
+    vertical-align: bottom;
+    float: none;
+}
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
 }
