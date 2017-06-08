@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===========================
+    THEME INFO
+    =========================== -->
+    <meta name="description" content="CVstrap is another Free minimal CV HTML theme by EvenFly built with Bootstrap 3.3.0. and released under CC-3.0 license.">
+    <meta name="keywords" content="curriculum vitae, cv, one page, onepage, bootstrap, responsive, resume, timeline, free cv">
+    <meta name="author" content="Mamun Srizon">
+
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>Andreas Ziegler - Computer Vision & Robotics Researcher</title>
+
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    <link href='//fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <!-- ===========================
+        HEADER
+        ============================ -->
+        <div id="header" class="row">
+            <div class="col-md-4">
+                <img src="img/SP2.png" height="200">
+            </div>
+            <!-- photo end-->
+
+            <div class="col-md-8">
+              <div class="row">
+                <h1>Map Fusion for Collaborative UAV SLAM</h1>
+              </div>
+              <div class="row" style="margin-top:14%;">
+                <p class="text-left align-bottom">
+                  Keywords: Computer Vision, Robotics, SLAM, Optimiaztion
+                  <br/>
+                  <a href="Thesis-SP2.pdf">Thesis</a>
+                </p>
+              </div>
+            </div><!-- Title end-->
+        </div>
+        <hr class="firsthr">
+
+        <!-- ===========================
+        PROJECT
+        ============================ -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <div class="col-md-2">
+                </div> -->
+                <h3>Abstract</h3>
+                <h4>Motivation</h4>
+                <p>
+A correct and accurate common map is crucial for multiple robots to collaboratively performing tasks. In this semester project, an existing multi agent Simultaneous Localisation and Mapping (SLAM) system should be extended to fuse maps of single robots in a way that no false map alignment is guaranteed and that an optimal alignment is achieved by using multiple place matches. Also redundant information, a consequence of the fusion of two maps, should be removed in order to get a good performance of the optimization routines e.g. Bundle Adjustment (BA).
+                </p>
+                <h4>Approach</h4>
+                <p>
+To achieve the first goal, a new approach is proposed which uses multiple KeyFrame Matchs (KFMs) to fuse two maps. This proposed approach also use a novel idea to spread the KFMs over a bigger area by skipping KeyFrames (KFs) between the
+detection of KFMs. To remove redundant information, KF culling is performed after all KFMs were detected and before the main map fusion. This way information which were present in both maps appear only once in the fused map and the Pose Graph Optimization (PGO) and the BA does not have unnecessary data to process. To reduce the runtime of the optimization part (PGO and BA), the usage of Powell’s dog leg (DL) non-linear least squares technique instead of the Levenberg-Marquardt (LM) optimization was evaluated and the system was adapted in a way, that the performance is increased.
+                </p>
+                <h4>Result</h4>
+                <p>
+The proposed map fusion approach reduces drift and achieves better accuracy compared to the previous approach. With the implemented KF culling, the number of KFs which the PGO and the BA have to process is decreased significantly and therefore better timing is achieved. The usage of DL non-linear least squares technique reduced the runtime of the optimization furthermore.
+                </p>
+            </div><!--Project 1 end-->
+        </div><!--Abstrace end-->
+        <hr/>
+
+        <!-- ===========================
+        Downloads
+        ============================ -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Downloads</h3>
+                <a href="SP1.pdf">Thesis</a>
+            </div>
+        </div>
+
+    </div><!--container end-->
+
+    <!-- ===========================
+    FOOTER
+    =========================== -->
+    <footer class="text-center">
+        <p>&copy; <a href="http://creativecommons.org/licenses/by/3.0/">CC-3.0</a>, Just another CV template by <a href="https://evenfly.com">EvenFly </a> - Designed by <a target="_blank" href="http://www.facebook.com/towkirahmedbappy">Towkir Ahmed Bappy</a>.
+        </p>
+    </footer>
+
+    <!--necessary scripts and plugins-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/evenfly.js"></script>
+</body>
+
+</html>

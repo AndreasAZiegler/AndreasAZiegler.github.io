@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===========================
+    THEME INFO
+    =========================== -->
+    <meta name="description" content="CVstrap is another Free minimal CV HTML theme by EvenFly built with Bootstrap 3.3.0. and released under CC-3.0 license.">
+    <meta name="keywords" content="curriculum vitae, cv, one page, onepage, bootstrap, responsive, resume, timeline, free cv">
+    <meta name="author" content="Mamun Srizon">
+
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>Andreas Ziegler - Computer Vision & Robotics Researcher</title>
+
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    <link href='//fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <!-- ===========================
+        HEADER
+        ============================ -->
+        <div id="header" class="row">
+            <div class="col-md-4">
+                <img src="img/HSR-BA.png" height="200">
+            </div>
+            <!-- photo end-->
+
+            <div class="col-md-8">
+              <div class="row">
+                <h1>Mobile datalogger for recording decentrally captured dynamic motor vehicle data</h1>
+              </div>
+              <div class="row" style="margin-top:9%">
+                <p class="text-left align-bottom">
+                  Keywords: Embedded Software Engineering
+                  <br/>
+                  <a href="Thesis-HSR-BA.pdf">Thesis</a>
+                </p>
+              </div>
+            </div><!-- Title end-->
+        </div>
+        <hr class="firsthr">
+
+        <!-- ===========================
+        PROJECT
+        ============================ -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <div class="col-md-2">
+                </div> -->
+                <h3>Abstract</h3>
+                <h4>Problem</h4>
+                <p>
+The company Sportec AG from Höri ZH is a professional tuner for cars and is also active in motor sports. To analyze and optimize the driving dynamics of racing cars on racetracks, Sportec AG needs a measurement system. With this system it should be possible to measure high dynamic processes, like length changes of the dampers and acceleration. At the same time also slow processes like the oil temperature should be captured over longer time. The position of the car should be logged by the system with a Global Positioning System ( GPS ) receiver and the messages which are exchanged over the car internal Controller Area Network ( CAN ) bus should also be recorded by the system. Because of the rough environment and the high number of disturbing factors in a racing car, the Analog-to-Digital Converters ( ADC’s ) should be placed as close as possible to their sensors. To reach this goal, the system will be realized as a distributed system with Data Acquisition ( DAQ ) modules, which already exist, and with a central Data Logger ( DL ).
+                </p>
+                <h4>Proceeding</h4>
+                <p>
+In the analysis the specification for the mobile data logger has to be done as the first step, according to the job description. In the next step, the best fitting hardware has to be evaluated and ordered. After the hardware is chosen, the development of the software, starting with the analysis, followed by the design and the implementation, must be done. At the end the whole mobile data logger (hardware and software) has to be tested.
+                </p>
+                <h4>Result</h4>
+                <p>
+With the PandaBoard, an embedded platform was chosen on which an normal Linux operating system can run. The used Linux distribution is “Ubuntu Core”, a “Ubuntu” version with a very small memory footprint that still allows to install a lot of standard Linux packets. The mobile data logger software allows five DAQ modules to connect over Wireless Local Area Network ( WLAN ). Over these WLAN connections, the DAQ modules get configured, their timer reseted and the measurement started and stopped. With IEEE802.15.4 broadcast messages every 250 ms over a XBee module, the five DAQ modules are kept in sync. The sensor data which the DAQ modules are sending over WLAN are received by the mobile data logger software and saved to a file on a SD card. The received positions from the GPS receiver are also saved to a file on a SD card.
+                </p>
+            </div><!--Project 1 end-->
+        </div><!--Abstrace end-->
+        <hr/>
+
+        <!-- ===========================
+        Downloads
+        ============================ -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Downloads</h3>
+                <a href="Thesis-HSR-BA.pdf">Thesis</a>
+            </div>
+        </div>
+
+    </div><!--container end-->
+
+    <!-- ===========================
+    FOOTER
+    =========================== -->
+    <footer class="text-center">
+        <p>&copy; <a href="http://creativecommons.org/licenses/by/3.0/">CC-3.0</a>, Just another CV template by <a href="https://evenfly.com">EvenFly </a> - Designed by <a target="_blank" href="http://www.facebook.com/towkirahmedbappy">Towkir Ahmed Bappy</a>.
+        </p>
+    </footer>
+
+    <!--necessary scripts and plugins-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/evenfly.js"></script>
+</body>
+
+</html>
