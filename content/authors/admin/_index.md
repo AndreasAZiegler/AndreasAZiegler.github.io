@@ -1,39 +1,41 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Andreas Ziegler
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD candidate in Robotics & Computer Vision
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: Cognitive System Group @ University of Tübingen
+  url: https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/
+- name: Sony AI
+  url: https://ai.sony/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Robotics
+- Computer Vision
+- Machine Learning
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Robotics
+    institution: University of Tübingen & Sony AI
+    year: 2021-
+  - course: MSc in Information Technology and Electrical Engineering
+    institution: ETH Zürich
+    year: 2018
+  - course: BSc in Electrical Engineering
+    institution: University of Applied Science Eastern Switzerland
+    year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -45,33 +47,36 @@ social:
   link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/AndreasAZiegler
+#- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+#  icon_pack: fas
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/AndreasAZiegler
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/andreas-ziegler-34087467/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: uploads/AndreasZiegler.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "062.127@gmail.com"
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD candidate at the [Cognitive System Group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/) at the [University of Tübingen](https://uni-tuebingen.de/) in collaboration with [Sony AI](https://ai.sony/).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am passioned about a mix of robotics and computer vision research and industrial/commercial robotics applications. My vision is to develop novel algorithms and make them work on real robots.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Before I started my PhD studies, I worked as a Robotics Engineer for a few years. Previously, I was a Research Assistant at the [Robotics and Perception Group](http://rpg.ifi.uzh.ch/) continuing the project of my Master thesis. Before that, I was a Research Associate Intern at [Disney Research Zurich](https://www.disneyresearch.com/). I have done my Master thesis at the [Robotics and Perception Group](http://rpg.ifi.uzh.ch/), was a Computer Vision & Robotics intern at [Pix4D](https://www.pix4d.com/) while I was a master student at [D-ITET](https://www.ee.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/) focusing on Computer Vision, Robotics and Machine Learning. Before my master studies, I worked at the [Computer Assisted Research and Development (CARD)](https://card.balgrist.ch/) and at the [Institute of Biomechanics](http://www.biomechanics.ch/) after I completed my BSc in Electrical Engineering at the [University of Applied Sciences of Eastern Switzerland (FHO)](https://www.hsr.ch/).
+
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/AndreasZiegler.pdf" "newtab" >}}resumé{{< /staticref >}}.
