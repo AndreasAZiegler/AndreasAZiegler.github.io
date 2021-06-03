@@ -35,7 +35,7 @@ abstract: In exploration, the goal is to build a map of an unknown environment. 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["exploration", "mapping", "planning"]
+tags: ["Robotics", "Mapping", "Localization", "Exploration"]
 
 # Display this page in the Featured widget?
 featured: true
@@ -67,7 +67,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-#- example
+- exploration
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
