@@ -23,6 +23,14 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- certificate_url: https://courses.edx.org/certificates/1168ab0fe8aa4c99abb9a454212e1662
+  date_end: ""
+  date_start: "2021-08-15"
+  description: "The first robotics and AI MOOC with scale-model self-driving cars. Learn state-of-the-art autonomy with your own real robot (Duckiebot)."
+  organization: edX
+  organization_url: https://www.edx.org
+  title: "DT-01x: Self-Driving Cars with Duckietown"
+  url: "https://www.edx.org/course/self-driving-cars-with-duckietown"
 - certificate_url: https://www.coursera.org/account/accomplishments/specialization/GRPBT6SX98C8
   date_end: ""
   date_start: "2018-03-16"
