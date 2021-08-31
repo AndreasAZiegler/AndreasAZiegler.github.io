@@ -22,6 +22,15 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: PhD candidate in Robotics and Computer Vision
+    company: University of Tübingen
+    company_url: 'https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/'
+    company_logo: uni-tuebingen
+    location: Tübingen, Germany
+    date_start: '2021-06-01'
+    date_end: ''
+    description: Working on Event-based computer vision for fast robot control in collaboration with Sony AI Zürich
+        
   - title: Robotics Engineer
     company: MT Robot AG
     company_url: ''
@@ -30,8 +39,6 @@ experience:
     date_start: '2018-09-01'
     date_end: '2021-05-31'
     description: |2-
-        Accomplished tasks:
-        
         * Development of a computer vision based safety field intrusion detection system
         * Improvement of a multi robot collision avoidance system
         * Development and maintenance of software for automated guided vehicle (AGVs), including topics such as multi sensor fusion, mapping, path planning, (multi robot) obstacle avoidance, etc.
@@ -63,8 +70,6 @@ experience:
     date_start: '2017-03-01'
     date_end: '2017-08-31'
     description: |2-
-        Accomplished tasks:
-        
         * Worked on indoor navigation for UAVs
         * Implementation of a filtering method for a robust target detection
         * Participation on an indoor mapping project with an industrial partner
@@ -80,8 +85,6 @@ experience:
     date_start: '2015-08-01'
     date_end: '2018-06-30'
     description: |2-
-        Accomplished tasks:
-        
         * Extended and modified a Web-Tool
         * Administration of the Linux Server Architecture
 
@@ -93,8 +96,6 @@ experience:
     date_start: '2014-01-01'
     date_end: '2015-08-31'
     description: |2-
-        Accomplished tasks:
-        
         * Developed and implemented a new stretcher system
         * Extended and adapted a microscope control software
 
@@ -106,8 +107,6 @@ experience:
     date_start: '2013-11-01'
     date_end: '2014-02-28'
     description: |2-
-        Accomplished tasks:
-        
         * Implementation of segmentation algorithms
         * Implementation of new features in existing software
 
@@ -119,8 +118,6 @@ experience:
     date_start: '2013-08-01'
     date_end: '2013-10-31'
     description: |2-
-        Accomplished tasks:
-        
         * Extended and adapted a microscope control software
         * Developed and implemented a stretcher control software
 
@@ -132,8 +129,6 @@ experience:
     date_start: '2008-08-01'
     date_end: '2009-02-28'
     description: |2-
-        Accomplished tasks:
-        
         * Install and maintain new hardware
         * Install, repair and maintain Notebooks, Windows Workstations and Server
         * First and second level support for Microsoft Windows XP, Microsoft Vista and Microsoft Office
@@ -148,8 +143,6 @@ experience:
     date_start: '2004-08-16'
     date_end: '2008-08-31'
     description: |2-
-        Accomplished tasks:
-        
         * Creating Schema and Layout for PCB’s
         * Programming Software in C for Micro Controller with RS and CAN Systems
         * Repair of PCB’s
