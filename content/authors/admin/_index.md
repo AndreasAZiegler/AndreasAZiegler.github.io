@@ -10,7 +10,7 @@ role: PhD candidate in Robotics & Computer Vision
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Cognitive System Group @ University of Tübingen
+- name: Cognitive Systems Group @ University of Tübingen
   url: https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/
 - name: Sony AI
   url: https://ai.sony/
@@ -72,11 +72,11 @@ email: "062.127@gmail.com"
 highlight_name: true
 ---
 
-I am a PhD candidate at the [Cognitive System Group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/) at the [University of Tübingen](https://uni-tuebingen.de/) in collaboration with [Sony AI](https://ai.sony/).
+I am a PhD candidate at the [Cognitive Systems Group](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/) at the [University of Tübingen](https://uni-tuebingen.de/) in collaboration with [Sony AI Zürich](https://ai.sony/).
 
-I am passioned about a mix of robotics and computer vision research and industrial/commercial robotics applications. My vision is to develop novel algorithms and make them work on real robots.
+I am passioned about a mix of robotics and computer vision research and industrial/commercial applications. My vision is to develop novel algorithms and make them work on real robots.
 
-Before I started my PhD studies, I worked as a Robotics Engineer for a few years. Previously, I was a Research Assistant at the [Robotics and Perception Group](http://rpg.ifi.uzh.ch/) continuing the project of my Master thesis. Before that, I was a Research Associate Intern at [Disney Research Zurich](https://www.disneyresearch.com/). I have done my Master thesis at the [Robotics and Perception Group](http://rpg.ifi.uzh.ch/), was a Computer Vision & Robotics intern at [Pix4D](https://www.pix4d.com/) while I was a master student at [D-ITET](https://www.ee.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/) focusing on Computer Vision, Robotics and Machine Learning. Before my master studies, I worked at the [Computer Assisted Research and Development (CARD)](https://card.balgrist.ch/) and at the [Institute of Biomechanics](http://www.biomechanics.ch/) after I completed my BSc in Electrical Engineering at the [University of Applied Sciences of Eastern Switzerland (FHO)](https://www.hsr.ch/).
+Before I started my PhD studies, I worked as a Robotics Engineer for a few years. Previously, I was a Research Assistant at the [Robotics and Perception Group](http://rpg.ifi.uzh.ch/) continuing the project of my Master thesis. Before that, I was a Research Associate Intern at [Disney Research Zurich](https://www.disneyresearch.com/). I have done my Master thesis at the [Robotics and Perception Group](http://rpg.ifi.uzh.ch/), was a Computer Vision & Robotics intern at [Pix4D](https://www.pix4d.com/) while I was a master student at [D-ITET](https://www.ee.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/) focusing on Computer Vision, Robotics and Machine Learning. Before my master studies, I worked at the [Research in Orthopedic Computer Science (ROCS)](https://rocs.balgrist.ch/) and at the [Institute of Biomechanics](http://www.biomechanics.ch/) after I completed my BSc in Electrical Engineering at the [University of Applied Sciences of Eastern Switzerland (FHO)](https://www.hsr.ch/).
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/AndreasZiegler.pdf" "newtab" >}}resumé{{< /staticref >}}.
