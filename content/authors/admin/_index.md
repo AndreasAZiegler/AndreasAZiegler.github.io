@@ -21,15 +21,15 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Interests to show in About widget
 interests:
 - Robotics
-- Computer Vision
-- Machine Learning
+- (Event-based) Computer Vision
+- Machine/Deep Learning
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Robotics
+  - course: PhD in Robotics & Computer Vision
     institution: University of Tübingen & Sony AI
-    year: 2021-
+    year: 2021-present
   - course: MSc in Information Technology and Electrical Engineering
     institution: ETH Zürich
     year: 2018
@@ -66,7 +66,7 @@ social:
   link: uploads/AndreasZiegler.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "062.127@gmail.com"
+email: "andreas.ziegler@uni-tuebingen.de"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

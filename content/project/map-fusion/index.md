@@ -5,6 +5,7 @@ tags:
 - Computer Vision
 - Robotics
 - SLAM
+- Mapping
 - Optimiaztion
 date: "2017-03-30T00:00:00Z"
 
