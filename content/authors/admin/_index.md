@@ -6,7 +6,7 @@ title: Andreas Ziegler
 superuser: true
 
 # Role/position/tagline
-role: PhD candidate in Robotics & Computer Vision
+role: PhD Candidate in Robotics & Computer Vision
 
 # Organizations/Affiliations to show in About widget
 organizations:
