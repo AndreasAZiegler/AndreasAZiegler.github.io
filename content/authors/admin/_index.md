@@ -16,7 +16,7 @@ organizations:
   url: https://ai.sony/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include robotics, (event-based) computer vision and machine/deep learning.
 
 # Interests to show in About widget
 interests:
