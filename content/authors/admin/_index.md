@@ -72,9 +72,7 @@ email: "andreas.ziegler@uni-tuebingen.de"
 highlight_name: true
 ---
 
-I'm currently doing a PhD internship at [Prophesee](https://www.prophesee.ai), supervised by [Amos Sironi](https://fr.linkedin.com/in/amos-sironi/en).
-
-I am a PhD candidate at the [Cognitive Systems Group](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/) at the [University of Tübingen](https://uni-tuebingen.de/) in collaboration with [Sony AI Zürich](https://ai.sony/).
+I am a PhD candidate at the [Cognitive Systems Group](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/) at the [University of Tübingen](https://uni-tuebingen.de/) in collaboration with [Sony AI Zürich](https://ai.sony/). In 2022 I did a PhD internship at [Prophesee](https://www.prophesee.ai), supervised by [Amos Sironi](https://fr.linkedin.com/in/amos-sironi/en).
 
 I am passioned about a mix of robotics and computer vision research and industrial/commercial applications. My vision is to develop novel algorithms and make them work on real robots.
 
