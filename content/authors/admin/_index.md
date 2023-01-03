@@ -63,7 +63,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/AndreasZiegler.pdf
+  link: pdf/AndreasZiegler_long.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "andreas.ziegler@uni-tuebingen.de"
@@ -79,4 +79,4 @@ I am passioned about a mix of robotics and computer vision research and industri
 Before I started my PhD studies, I worked as a Robotics Engineer for a few years. Previously, I was a Research Assistant at the [Robotics and Perception Group](http://rpg.ifi.uzh.ch/) continuing the project of my Master thesis. Before that, I was a Research Associate Intern at [Disney Research Zurich](https://www.disneyresearch.com/). I have done my Master thesis at the [Robotics and Perception Group](http://rpg.ifi.uzh.ch/), was a Computer Vision & Robotics intern at [Pix4D](https://www.pix4d.com/) while I was a master student at [D-ITET](https://www.ee.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/) focusing on Computer Vision, Robotics and Machine Learning. Before my master studies, I worked at the [Research in Orthopedic Computer Science (ROCS)](https://rocs.balgrist.ch/) and at the [Institute of Biomechanics](http://www.biomechanics.ch/) after I completed my BSc in Electrical Engineering at the [University of Applied Sciences of Eastern Switzerland (FHO)](https://www.hsr.ch/).
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/AndreasZiegler.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "pdf/AndreasZiegler_short.pdf" "newtab" >}}short CV{{< /staticref >}} or my {{< staticref "pdf/AndreasZiegler_long.pdf" "newtab" >}}long CV{{< /staticref >}}.
