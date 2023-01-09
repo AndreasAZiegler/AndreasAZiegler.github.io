@@ -16,13 +16,13 @@ content:
   autolink: true
   
   # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+  #form:
+  #  provider: netlify
+  #  formspree:
+  #    id:
+  #  netlify:
+  #    # Enable CAPTCHA challenge to reduce spam?
+  #    captcha: false
 
   # Contact details (edit or remove options as required)
   email: andreas.ziegler@uni-tuebingen.de
@@ -47,6 +47,10 @@ content:
       icon_pack: fab
       name: DM Me
       link: 'https://twitter.com/AndreasAZiegler'
+    - icon: linkedin
+      icon_pack: fab
+      name: Connect with me
+      link: 'https://www.linkedin.com/in/andreas-ziegler-34087467/'
     #- icon: skype
     #  icon_pack: fab
     #  name: Skype Me
