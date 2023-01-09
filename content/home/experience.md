@@ -60,7 +60,7 @@ experience:
     location: Zurich
     date_start: '2018-06-01'
     date_end: '2020-08-31'
-    description: Research on mapping for exploration
+    description: Continued working on my master thesis project which lead to [this publication](https://andreasaziegler.github.io/publication/isrr19-cieslewski/).
 
   - title: Research Associate Intern
     company: Disney Research Zurich
@@ -69,7 +69,16 @@ experience:
     location: Zurich
     date_start: '2018-04-01'
     date_end: '2018-05-31'
-    description: Worked on localization and sensor fusion for a UAV
+    description: Integrated [a Leica total station in an existing ROS setup](https://github.com/AndreasAZiegler/leica_streaming_app) within the [PaintCopter project](https://la.disneyresearch.com/publication/paintcopter/).
+
+  - title: Research Assistant
+    company: Laboratory for Orthopaedic Biomechanics
+    company_url: 'hhttps://orthobiomech.ethz.ch/'
+    company_logo:
+    location: Zurich
+    date_start: '2018-03-01'
+    date_end: '2018-03-31'
+    description: Developed an LED light controller for a microscope setup which contributed to [this publication](https://andreasaziegler.github.io/publication/biorxiv20-horvath/).
 
   - title: Computer Vision & Robotics Research Intern
     company: Pix4D SA
@@ -93,9 +102,9 @@ experience:
     location: Zurich
     date_start: '2015-08-01'
     date_end: '2018-06-30'
-    description: |2-
-        * Extended and modified a Web-Tool
-        * Administration of the Linux Server Architecture
+    #description: |2-
+    #    * Extended and modified a Web-Tool
+    #    * Administration of the Linux Server Architecture
 
   - title: Research Assistant
     company: Laboratory for Orthopaedic Biomechanics at the University and ETH Zurich
@@ -104,9 +113,7 @@ experience:
     location: Zurich
     date_start: '2014-01-01'
     date_end: '2015-08-31'
-    description: |2-
-        * Developed and implemented a new stretcher system
-        * Extended and adapted a microscope control software
+    description: Extended and adapted a microscope control software which contributed to [this publication](https://andreasaziegler.github.io/publication/bj21-horvath/).
 
   - title: Research Assistant (Civil service)
     company: "ROCS: Research in Orthopedic Computer Science, University Hospital Balgrist"
@@ -115,9 +122,7 @@ experience:
     location: Zurich
     date_start: '2013-11-01'
     date_end: '2014-02-28'
-    description: |2-
-        * Implementation of segmentation algorithms
-        * Implementation of new features in existing software
+    description: Worked on segmentation algorithms for computer-assisted surgical planning.
 
   - title: Research Assistant (Civil service)
     company: Laboratory for Orthopaedic Biomechanics at the University and ETH Zurich
@@ -126,9 +131,7 @@ experience:
     location: Zurich
     date_start: '2013-08-01'
     date_end: '2013-10-31'
-    description: |2-
-        * Extended and adapted a microscope control software
-        * Developed and implemented a stretcher control software
+    description: Extended and adapted a microscope control software which contributed to [this publication](https://andreasaziegler.github.io/publication/bj21-horvath/).
 
   - title: Computer Scince Interen
     company: ERPSourcing AG
@@ -137,12 +140,12 @@ experience:
     location: Wallisellen
     date_start: '2008-08-01'
     date_end: '2009-02-28'
-    description: |2-
-        * Install and maintain new hardware
-        * Install, repair and maintain Notebooks, Windows Workstations and Server
-        * First and second level support for Microsoft Windows XP, Microsoft Vista and Microsoft Office
-        * Install and maintain printer and print server
-        * Customer support
+    #description: |2-
+    #    * Install and maintain new hardware
+    #    * Install, repair and maintain Notebooks, Windows Workstations and Server
+    #    * First and second level support for Microsoft Windows XP, Microsoft Vista and Microsoft Office
+    #    * Install and maintain printer and print server
+    #    * Customer support
 
   - title: Electronics Engineer Apprentice
     company: Hch. Kündig & Cie. AG
@@ -151,11 +154,11 @@ experience:
     location: Rüti ZH
     date_start: '2004-08-16'
     date_end: '2008-08-31'
-    description: |2-
-        * Creating Schema and Layout for PCB’s
-        * Programming Software in C for Micro Controller with RS and CAN Systems
-        * Repair of PCB’s
-        * Creating documentations for the production
+    #description: |2-
+    #    * Creating Schema and Layout for PCB’s
+    #    * Programming Software in C for Micro Controller with RS and CAN Systems
+    #    * Repair of PCB’s
+    #    * Creating documentations for the production
 
 design:
   columns: '2'
