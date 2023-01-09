@@ -30,6 +30,15 @@ experience:
     date_start: '2021-06-01'
     date_end: ''
     description: Working on Event-based computer vision for fast robot control in collaboration with Sony AI Zürich
+
+  - title: Computer Vision & ML Research Intern
+    company: Prophesee
+    company_url: ''
+    company_logo: prophesee
+    location: Paris, France
+    date_start: '2022-08-01'
+    date_end: '2022-10-31'
+    description: Worked on slow motion from frame and event data under the supervision of [Dr. Amos Sironi](https://fr.linkedin.com/in/amos-sironi/en).
         
   - title: Robotics Engineer
     company: MT Robot AG
