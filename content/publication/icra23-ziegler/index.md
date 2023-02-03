@@ -48,10 +48,10 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/pdf/2209.04634.pdf'
-url_code: ''
+url_code: 'https://github.com/cogsys-tuebingen/event_simulator_ros'
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://cogsys-tuebingen.github.io/realtime_event_simulator/'
 url_slides: ''
 url_source: ''
 url_video: ''
@@ -69,6 +69,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
+#- event-simulator
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
