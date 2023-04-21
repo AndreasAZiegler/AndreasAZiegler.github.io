@@ -1,16 +1,15 @@
 ---
-title: Spiking neural network for event-based ball detection
-summary: The goal of this thesis is to investigate and evaluate how a SNN can be used together with our event-based cameras to detect and track table tennis balls.
+title: Ball Detection with event-based asynchronous sparse convolutional networks
+summary:  The goal of this thesis is to use Asynchronous Sparse Convolutional Layers and apply it in a neural network to detect fast moving table tennis balls in real-time.
 tags:
 - Robotics
 - Computer Vision
 - Event Camera
 - Deep Learning
-- Spiking Neural Networks
 date: "2021-02-21T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/teaching/master-theses/#c1521869"
+external_link: "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/teaching/bachelor-theses/#c1698244"
 
 image:
   caption: featured.png
