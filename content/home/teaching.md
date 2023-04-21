@@ -37,4 +37,4 @@ design:
   columns: '2'
 ---
 
-If you have other project ideas for a BSc or MSc thesis in the area of my research interests, please [drop me an email](andreas.ziegler@uni-tuebingen.de). I'm more than happy to discuss such topics with you and supervise interesting projects. You can get the unique opportunity to work with a real robot system and event-based cameras which are still quite scarce among research groups.
+If you have other project ideas for a BSc or MSc thesis in the area of my research interests, please [drop me an email](mailto:andreas.ziegler@uni-tuebingen.de). I'm more than happy to discuss such topics with you and supervise interesting projects. You can get the unique opportunity to work with a real robot system and event-based cameras which are still quite scarce among research groups.
