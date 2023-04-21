@@ -47,10 +47,10 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/pdf/2303.03879.pdf'
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/cogsys-tuebingen/spindoe'
+url_dataset: 'https://github.com/cogsys-tuebingen/spindoe/tree/main/data/trajectories'
 url_poster: ''
-url_project: ''
+url_project: 'https://cogsys-tuebingen.github.io/spindoe/'
 url_slides: ''
 url_source: ''
 url_video: ''
