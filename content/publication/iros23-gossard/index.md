@@ -28,8 +28,8 @@ publishDate: "2023-03-07T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *arXiv*
-publication_short: In *arXiv*
+publication: In *2023 IEEE/RSJ International Conference on Intelligent Robots (IROS)*
+publication_short: In *IROS2023*
 
 abstract: Spin plays a considerable role in table tennis, making a shot’s trajectory harder to read and predict. However, the spin is challenging to measure because of the ball’s high velocity and the magnitude of the spin values. Existing methods either require extremely high framerate cameras or are unreliable because they use the ball’s logo, which may not always be visible. Because of this, many table tennis-playing robots ignore the spin, which severely limits their capabilities. This paper proposes an easily implementable and reliable spin estimation method. We developed a dotted-ball orientation estimation (DOE) method, that can then be used to estimate the spin. The dots are first localized on the image using a CNN and then identified using geometric hashing. The spin is finally regressed from the estimated orientations. Using our algorithm, the ball’s orientation can be estimated with a mean error of 2.4&deg; and the spin estimation has an relative error lower than 1%. Spins up to 175 rps are measurable with a camera of 350 fps in real time. Using our method, we generated a dataset of table tennis ball trajectories with position and spin, available on our project page.
 
