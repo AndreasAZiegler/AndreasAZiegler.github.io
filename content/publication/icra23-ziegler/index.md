@@ -17,7 +17,7 @@ authors:
 #- "Equal contribution"
 
 date: "2022-09-10T00:00:00Z"
-doi: ""
+doi: "10.1109/ICRA48891.2023.10160654"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-12-08T00:00:00Z"
@@ -54,7 +54,7 @@ url_poster: ''
 url_project: 'https://cogsys-tuebingen.github.io/realtime_event_simulator/'
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://youtu.be/WaMx2-yOzcQ'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
