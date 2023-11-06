@@ -1,0 +1,165 @@
+---
+# An instance of the Experience widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: experience
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 90
+
+title: Experience
+subtitle:
+
+# Date format for experience
+#   Refer to https://wowchemy.com/docs/customization/#date-format
+date_format: Jan 2006
+
+# Experiences.
+#   Add/remove as many `experience` items below as you like.
+#   Required fields are `title`, `company`, and `date_start`.
+#   Leave `date_end` empty if it's your current employer.
+#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+experience:
+  - title: PhD candidate in Robotics and Computer Vision
+    company: University of Tübingen
+    company_url: 'https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/'
+    company_logo: uni-tuebingen
+    location: Tübingen, Germany
+    date_start: '2021-06-01'
+    date_end: ''
+    description: Working on Event-based computer vision for fast robot control in collaboration with Sony AI Zürich
+
+  - title: Computer Vision & ML Research Intern
+    company: Prophesee
+    company_url: ''
+    company_logo: prophesee
+    location: Paris, France
+    date_start: '2022-08-01'
+    date_end: '2022-10-31'
+    description: Worked on slow motion from frame and event data under the supervision of [Dr. Amos Sironi](https://fr.linkedin.com/in/amos-sironi/en).
+        
+  - title: Robotics Engineer
+    company: MT Robot AG
+    company_url: ''
+    company_logo: mt-robot
+    location: Zwingen, Switzerland
+    date_start: '2018-09-01'
+    date_end: '2021-05-31'
+    description: |2-
+        * Development of a computer vision based safety field intrusion detection system
+        * Improvement of a multi robot collision avoidance system
+        * Development and maintenance of software for automated guided vehicle (AGVs), including topics such as multi sensor fusion, mapping, path planning, (multi robot) obstacle avoidance, etc.
+        * Deputy Scrum Master
+        
+  - title: Research Assistant
+    company: Robotics and Perception Group, University of Zurich
+    company_url: 'http://rpg.ifi.uzh.ch/'
+    company_logo: rpg
+    location: Zurich
+    date_start: '2018-06-01'
+    date_end: '2020-08-31'
+    description: Continued working on my master thesis project which lead to [this publication](https://andreasaziegler.github.io/publication/isrr19-cieslewski/).
+
+  - title: Research Associate Intern
+    company: Disney Research Zurich
+    company_url: 'https://www.disneyresearch.com/'
+    company_logo: dr
+    location: Zurich
+    date_start: '2018-04-01'
+    date_end: '2018-05-31'
+    description: Integrated [a Leica total station in an existing ROS setup](https://github.com/AndreasAZiegler/leica_streaming_app) within the [PaintCopter project](https://la.disneyresearch.com/publication/paintcopter/).
+
+  - title: Research Assistant
+    company: Laboratory for Orthopaedic Biomechanics
+    company_url: 'hhttps://orthobiomech.ethz.ch/'
+    company_logo:
+    location: Zurich
+    date_start: '2018-03-01'
+    date_end: '2018-03-31'
+    description: Developed an LED light controller for a microscope setup which contributed to [this publication](https://andreasaziegler.github.io/publication/biorxiv20-horvath/).
+
+  - title: Computer Vision & Robotics Research Intern
+    company: Pix4D SA
+    company_url: 'https://www.pix4d.com/'
+    company_logo: pix4d
+    location: Lausanne
+    date_start: '2017-03-01'
+    date_end: '2017-08-31'
+    description: |2-
+        * Worked on indoor navigation for UAVs
+        * Implementation of a filtering method for a robust target detection
+        * Participation on an indoor mapping project with an industrial partner
+        * Investigation of barcode localization and detection algorithms for automatic inventory
+        * Participation on a development of a target detection library for radiometric corrections
+        * Worked on various computer vision applications (Barcode localization/detection, 3D reconstruction, Camera calibration)
+
+  - title: Software Engineer & System Administrator
+    company: Accelerom AG
+    company_url: 'https://www.accelerom.com/'
+    company_logo: accelerom
+    location: Zurich
+    date_start: '2015-08-01'
+    date_end: '2018-06-30'
+    #description: |2-
+    #    * Extended and modified a Web-Tool
+    #    * Administration of the Linux Server Architecture
+
+  - title: Research Assistant
+    company: Laboratory for Orthopaedic Biomechanics at the University and ETH Zurich
+    company_url: 'https://orthobiomech.ethz.ch/'
+    company_logo: 
+    location: Zurich
+    date_start: '2014-01-01'
+    date_end: '2015-08-31'
+    description: Extended and adapted a microscope control software which contributed to [this publication](https://andreasaziegler.github.io/publication/bj21-horvath/).
+
+  - title: Research Assistant (Civil service)
+    company: "ROCS: Research in Orthopedic Computer Science, University Hospital Balgrist"
+    company_url: 'https://rocs.balgrist.ch/'
+    company_logo: 
+    location: Zurich
+    date_start: '2013-11-01'
+    date_end: '2014-02-28'
+    description: Worked on segmentation algorithms for computer-assisted surgical planning.
+
+  - title: Research Assistant (Civil service)
+    company: Laboratory for Orthopaedic Biomechanics at the University and ETH Zurich
+    company_url: 'https://orthobiomech.ethz.ch/'
+    company_logo: 
+    location: Zurich
+    date_start: '2013-08-01'
+    date_end: '2013-10-31'
+    description: Extended and adapted a microscope control software which contributed to [this publication](https://andreasaziegler.github.io/publication/bj21-horvath/).
+
+  - title: Computer Scince Interen
+    company: ERPSourcing AG
+    company_url: ''
+    company_logo: 
+    location: Wallisellen
+    date_start: '2008-08-01'
+    date_end: '2009-02-28'
+    #description: |2-
+    #    * Install and maintain new hardware
+    #    * Install, repair and maintain Notebooks, Windows Workstations and Server
+    #    * First and second level support for Microsoft Windows XP, Microsoft Vista and Microsoft Office
+    #    * Install and maintain printer and print server
+    #    * Customer support
+
+  - title: Electronics Engineer Apprentice
+    company: Hch. Kündig & Cie. AG
+    company_url: 'https://www.kundig-hch.ch/kcs/en/'
+    company_logo: kcs
+    location: Rüti ZH
+    date_start: '2004-08-16'
+    date_end: '2008-08-31'
+    #description: |2-
+    #    * Creating Schema and Layout for PCB’s
+    #    * Programming Software in C for Micro Controller with RS and CAN Systems
+    #    * Repair of PCB’s
+    #    * Creating documentations for the production
+
+design:
+  columns: '2'
+---
