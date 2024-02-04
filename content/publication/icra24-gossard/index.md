@@ -26,11 +26,11 @@ publishDate: "2023-09-23T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *arXiv*
-publication_short: In *arXiv*
+publication: In *2024 International Conference on Robotics and Automation (ICRA)*
+publication_short: In *ICRA2024*
 
 abstract: Accurate calibration is crucial for using multiple cameras to triangulate the position of objects precisely. However, it is also a time-consuming process that needs to be repeated for every displacement of the cameras. The standard approach is to use a printed pattern with known geometry to estimate the intrinsic and extrinsic parameters of the cameras. The same idea can be applied to event-based cameras, though it requires extra work. By using frame reconstruction from events, a printed pattern can be detected. A blinking pattern can also be displayed on a screen. Then, the pattern can be directly detected from the events. Such calibration methods can provide accurate intrinsic calibration for both frame- and event-based cameras. However, using 2D patterns has several limitations for multi-camera extrinsic calibration, with cameras possessing highly different points of view and a wide baseline. The 2D pattern can only be detected from one direction and needs to be of significant size to compensate for its distance to the camera. This makes the extrinsic calibration time-consuming and cumbersome. To overcome these limitations, we propose eWand, a new method that uses blinking LEDs inside opaque spheres instead of a printed or displayed pattern. Our method provides a faster, easier-to-use extrinsic calibration approach that maintains high accuracy for both event- and frame-based cameras.
 
