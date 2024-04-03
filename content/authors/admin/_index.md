@@ -72,9 +72,9 @@ email: "andreas.ziegler@uni-tuebingen.de"
 highlight_name: true
 ---
 
-I'm currently interning at [Sony AI Zürich](https://ai.sony/) as a research scientist.
+I'm currently interning at [Sony AI](https://ai.sony/) as a research scientist.
 
-I am a PhD candidate at the [Cognitive Systems Group](https://uni-tuebingen.de/en/118829) at the [University of Tübingen](https://uni-tuebingen.de/) in collaboration with [Sony AI Zürich](https://ai.sony/) working on event-based vision for fast robot control. During my PhD, I did an internship at [Prophesee](https://www.prophesee.ai), supervised by [Dr. Amos Sironi](https://fr.linkedin.com/in/amos-sironi/en) and at [Sony AI Zürich](https://ai.sony/), supervised by [Dr. Raphaela Kreiser](https://ai.sony/people/Raphaela-Kreiser/) and [Dr. Naoya Takahashi](https://ai.sony/people/Naoya-Takahashi/).
+I am a PhD candidate at the [Cognitive Systems Group](https://uni-tuebingen.de/en/118829) at the [University of Tübingen](https://uni-tuebingen.de/) in collaboration with [Sony AI](https://ai.sony/) working on event-based vision for fast robot control. During my PhD, I did an internship at [Prophesee](https://www.prophesee.ai), supervised by [Dr. Amos Sironi](https://fr.linkedin.com/in/amos-sironi/en) and at [Sony AI](https://ai.sony/), supervised by [Dr. Raphaela Kreiser](https://ai.sony/people/Raphaela-Kreiser/) and [Dr. Naoya Takahashi](https://ai.sony/people/Naoya-Takahashi/).
 
 I am passioned about a mix of robotics and computer vision research and industrial/commercial applications. My vision is to develop novel algorithms and make them work on real robots.
 
