@@ -47,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2404.09870.pdf'
+url_pdf: 'https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Gossard_Table_Tennis_Ball_Spin_Estimation_with_an_Event_Camera_CVPRW_2024_paper.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
