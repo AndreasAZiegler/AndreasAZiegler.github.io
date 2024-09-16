@@ -1,5 +1,5 @@
 ---
-title: "Spiking Neural Networks for Fast-Moving Object Detection on Neuromorphic Hardware Devices Using an Event-Based Camera"
+title: "Detection of Fast-Moving Objects with Neuromorphic Hardware"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -9,6 +9,7 @@ authors:
 - Karl Vetter
 - Thomas Gossard
 - Jonas Tebbe
+- Sebastian Otte
 - Andreas Zell
 
 # Author notes (optional)
@@ -20,7 +21,7 @@ date: "2024-03-28T00:00:00Z"
 doi: "10.48550/arXiv.2403.10677"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-03-28T00:00:00Z"
+publishDate: "2024-09-26T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -32,7 +33,7 @@ publication_types: ["3"]
 publication: In *arXiv*
 publication_short: In *arXiv*
 
-abstract: Table tennis is a fast-paced and exhilarating sport that demands agility, precision, and fast reflexes. In recent years, robotic table tennis has become a popular research challenge for robot perception algorithms. Fast and accurate ball detection is crucial for enabling a robotic arm to rally the ball back successfully. Previous approaches have employed conventional frame-based cameras with CNN or traditional computer vision methods. In this paper, we propose a novel solution that combines an event-based camera with Spiking Neural Network (SNN) for ball detection. We use multiple state-of-the-art SNN frameworks and develop a SNN architecture for each of them, complying with their corresponding limitations. Additionally, we implement the SNN solution across multiple neuromorphic edge devices, conducting comparisons of their accuracies and run-times. This furnishes robotics researchers with a benchmark illustrating the capabilities achievable with each SNN framework and a corresponding neuromorphic edge device. Next to this comparison of SNN solutions for robots, we also show that an SNN on a neuromorphic edge device is able to run in real-time in a closed loop robotic system, a table tennis robot in our use case.
+abstract: Neuromorphic Computing (NC) and Spiking Neural Networks (SNNs) in particular are often viewed as the next generation of Neural Networks (NNs). NC is a novel bio-inspired paradigm for energy efficient neural computation, often relying on SNNs in which neurons communicate via spikes in a sparse, event-based manner. This communication via spikes can be exploited by neuromorphic hardware implementations very effectively and results in a drastic reductions of power consumption and latency in contrast to regular GPU-based NNs. In recent years, neuromorphic hardware has become more accessible, and the support of learning frameworks has improved. However, available hardware is partially still experimental, and it is not transparent what these solutions are effectively capable of, how they integrate into real-world robotics applications, and how they realistically benefit energy efficiency and latency. In this work, we provide the robotics research community with an overview of what is possible with SNNs on neuromorphic hardware focusing on real-time processing. We introduce a benchmark of three popular neuromorphic hardware devices for the task of event-based object detection. Moreover, we show that an SNN on a neuromorphic hardware is able to run in a challenging table tennis robot setup in real-time.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
