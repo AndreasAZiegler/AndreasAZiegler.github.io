@@ -55,7 +55,7 @@ url_poster: ''
 url_project: 'https://cogsys-tuebingen.github.io/snn-edge-benchmark/'
 url_slides: ''
 url_source: ''
-url_video: 'https://youtu.be/ir711NZOS2Q'
+url_video: 'https://youtu.be/uLgIhVKnsHg'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
