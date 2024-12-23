@@ -1,0 +1,17 @@
+---
+layout: post
+title: "eWand: A calibration framework for wide baseline frame-based and event-based camera systems"
+date: 2024-08-08 00:00:00 +00:00
+image: /images/icra24.png
+categories: research
+author: "Andreas Ziegler"
+authors: "Thomas Gossard*,<strong>Andreas Ziegler*</strong>, Levin Kolmar, Jonas Tebbe,  Andreas Zell"
+venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+doi: https://doi.org/10.1109/ICRA57147.2024.10610116
+cite: /cites/icra24.bib
+arxiv: https://arxiv.org/pdf/2309.12685.pdf
+poster:
+code: https://github.com/cogsys-tuebingen/ewand
+website: https://cogsys-tuebingen.github.io/ewand/
+youtube: https://youtu.be/Yd_Bsltdfi4
+---

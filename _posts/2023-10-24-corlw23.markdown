@@ -1,0 +1,17 @@
+---
+layout: post
+title: "A multi-modal table tennis robot system"
+date: 2023-10-24 00:00:00 +00:00
+image: /images/corlw23.png
+categories: research
+author: "Andreas Ziegler"
+authors: "<strong>Andreas Ziegler*</strong>,Thomas Gossard*, Karl Vetter, Jonas Tebbe,  Andreas Zell"
+venue: "RoboLetics: Workshop on Robot Learning in Athletics @CoRL 2023"
+doi: https://doi.org/10.48550/arXiv.2310.19062
+cite: /cites/corlw23.bib
+arxiv: https://openreview.net/forum?id=KdnxLFwhQJ
+poster:
+code:
+website:
+youtube:
+---

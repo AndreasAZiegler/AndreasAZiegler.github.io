@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Focus on time: dynamic imaging reveals stretch-dependent cell relaxation and nuclear deformation"
+date: 2021-01-02 00:00:00 +00:00
+image:
+categories: research
+author: "Andreas Ziegler"
+authors: "Aron N. Horvath, <strong>Andreas Ziegler</strong>, Stephan Gerhard, Claude N. Holenstein, Benjamin Beyeler, Jess G. Snedeker, Unai Silvan"
+venue: "Biophysical Journal"
+doi: https://doi.org/10.1016/j.bpj.2021.01.020
+cite: /cites/bj21.bib
+arxiv:
+code:
+website:
+youtube:
+---

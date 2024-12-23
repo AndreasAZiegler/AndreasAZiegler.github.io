@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E00L9PT3V9');
+  </script>
+  <title>{{ site.name }}</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <h1>
+                {{ site.name }}
+              </h1>
+              <p>
+                I am a PhD candidate at the <a href="https://uni-tuebingen.de/en/118829">Cognitive Systems Group</a> at the <a href="https://uni-tuebingen.de/">University of Tübingen</a> in collaboration with <a href="https://ai.sony/">Sony AI</a> working on <i>event-based vision for fast robot control</i>.
+              </p>
+              <p>
+                During my PhD, I did an internship at <a href="https://www.prophesee.ai">Prophesee</a>, supervised by <a href="https://fr.linkedin.com/in/amos-sironi/en">Dr. Amos Sironi</a> and at <a href="https://ai.sony/">Sony AI</a>, supervised by <a href="https://ai.sony/people/Raphaela-Kreiser/">Dr. Raphaela Kreiser</a> and <a href="https://ai.sony/people/Naoya-Takahashi/">Dr. Naoya Takahashi</a>.
+              </p>
+              <p>
+                Before I started my PhD studies, I worked as a Robotics Engineer for a few years. Previously, I was a Research Assistant at the <a href="http://rpg.ifi.uzh.ch/">Robotics and Perception Group</a> continuing the project of my Master thesis. Before that, I was a Research Associate Intern at <a href="https://www.disneyresearch.com/">Disney Research Zurich</a>. I have done my Master thesis at the <a href="http://rpg.ifi.uzh.ch/">Robotics and Perception Group</a>, was a Computer Vision & Robotics intern at <a href="https://www.pix4d.com/">Pix4D</a> while I was a master student at <a href="https://www.ee.ethz.ch/">D-ITET</a> at <a href="https://www.ethz.ch/">ETH Zurich</a> focusing on Robotics, Computer Vision, and Machine Learning. Before my master studies, I worked at the <a href="https://rocs.balgrist.ch/">Research in Orthopedic Computer Science (ROCS)</a> and at the <a href="http://www.biomechanics.ch/">Institute of Biomechanics</a> after I completed my BSc in Electrical Engineering at the <a href="https://www.hsr.ch/">University of Applied Sciences of Eastern Switzerland (FHO)</a>.
+              </p>
+              <p>
+                I'm always happy to collaborate with others on interesting projects. Therefore, do not hesitate to reach out!
+              </p>
+              <p style="text-align:center">
+                <a target="_blank" href="https://mailhide.io/e/lueGQZBO"> Email</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/andreas-ziegler-34087467/"> LinkedIn </a> &nbsp;/&nbsp;
+                <a href="pdf/AndreasZiegler_short.pdf"> CV (short)</a> & <a href="pdf/AndreasZiegler_long.pdf">(long) </a> &nbsp;/&nbsp;
+                <a href="https://bsky.app/profile/andreasziegler.bsky.social"> Bluesky </a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=go72M2kAAAAJ"> Scholar</a> &nbsp;/&nbsp;
+                <a href="https://github.com/AndreasAZiegler">GitHub</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+                <img style="width:100%;max-width:100%" alt="profile photo" src="{{ site.avatar }}">
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                I am passioned about an (application-driven) mix of robotics, computer vision, and machine learning research. My vision is to develop novel algorithms and make them work on real robots.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'research' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              {% if post.image %}
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              {% endif %}
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+                <h3>{% if post.arxiv %}<a href="{{post.arxiv}}">{{post.title}}</a>{% else %}{{post.title}}{% endif %}</h3>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <br>
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+              {% if post.doi %}
+              <a href="{{post.doi}}">doi</a> /
+              {% endif %}
+              {% if post.cite %}
+              <a href="{{post.cite}}">cite</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Talks</h2>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'talk' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              <em>{{post.venue}}</em>
+              <br>
+              {{ post.date | date: "%Y-%m-%d" }}
+
+              <br>
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                Design and source code from <a style="font-size:small;" href="https://leonidk.com/">Leonid Keselman's website</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+

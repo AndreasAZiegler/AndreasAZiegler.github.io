@@ -1,0 +1,17 @@
+---
+layout: post
+title: "SpinDOE: A ball spin estimation method for table tennis robot"
+date: 2023-12-13 00:00:00 +00:00
+image: /images/iros23.png
+categories: research
+author: "Andreas Ziegler"
+authors: "Thomas Gossard, Jonas Tebbe, <strong>Andreas Ziegler</strong>, Andreas Zell"
+venue: "IEEE/RSJ International Conference on Intelligent Robots (IROS)"
+doi: https://doi.org/10.1109/iros55552.2023.10342178
+cite: /cites/iros23.bib
+arxiv: https://arxiv.org/pdf/2303.03879.pdf
+poster:
+code: https://github.com/cogsys-tuebingen/spindoe
+website: https://cogsys-tuebingen.github.io/spindoe/
+youtube:
+---

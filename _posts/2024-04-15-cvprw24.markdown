@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Table tennis ball spin estimation with an event camera"
+date: 2024-04-15 00:00:00 +00:00
+image: /images/cvprw24.png
+categories: research
+author: "Andreas Ziegler"
+authors: "Thomas Gossard*, Julian Krismer*, <strong>Andreas Ziegler</strong>, Jonas Tebbe, Andreas Zell"
+venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+doi: https://doi.org/10.48550/arXiv.2404.09870
+cite: /cites/cvprw24.bib
+arxiv: https://arxiv.org/pdf/2404.09870
+poster:
+code:
+website:
+youtube:
+---

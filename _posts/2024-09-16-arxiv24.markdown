@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Detection of Fast-Moving Objects with Neuromorphic Hardware"
+date: 2024-09-16 00:00:00 +00:00
+image: /images/arxiv24.png
+categories: research
+author: "Andreas Ziegler"
+authors: "<strong>Andreas Ziegler</strong>, Karl Vetter, Thomas Gossard, Jonas Tebbe, Sebastian Otte, Andreas Zell"
+venue: "arXiv"
+doi: https://doi.org/10.48550/arXiv.2403.10677
+cite: /cites/arxiv24.bib
+arxiv: https://arxiv.org/pdf/2403.10677.pdf
+poster:
+code:
+website: https://cogsys-tuebingen.github.io/snn-edge-benchmark/
+youtube: https://youtu.be/uLgIhVKnsHg
+---

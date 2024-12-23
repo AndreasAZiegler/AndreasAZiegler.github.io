@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Exploration Without Global Consistency Using Local Volume Consolidation"
+date:   2019-09-03 00:00:00 +00:00
+image: /images/isrr19.png
+categories: research
+author: "Andreas Ziegler"
+authors: "Titus Cieslewski, <strong>Andreas Ziegler</strong>, Davide Scaramuzza"
+venue: "International Symposium on Robotics Research (ISRR)"
+doi:
+cite: /cites/isrr19.bib
+arxiv: https://arxiv.org/abs/1909.01423
+code:
+website:
+youtube: https://www.youtube.com/watch?v=s4Xnet_h4ss
+---

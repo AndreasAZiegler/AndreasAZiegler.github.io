@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Time-controlled Multichannel Dynamic Traction Imaging of Biaxially Stretched Adherent Cells"
+date:   2020-03-03 00:00:00 +00:00
+image:
+categories: research
+author: "Andreas Ziegler"
+authors: "Aron N. Horvath, <strong>Andreas Ziegler</strong>, Stephan Gerhard, Claude N. Holenstein, Benjamin Beyeler, Jess G. Snedeker, Unai Silvan"
+venue: "bioRxiv"
+arxiv: https://www.biorxiv.org/content/biorxiv/early/2020/03/03/2020.03.02.972919.full.pdf
+code:
+website:
+youtube:
+---
