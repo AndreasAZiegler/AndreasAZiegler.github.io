@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --tuebingen-red: #800000; /* Burgundy color for University of Tübingen */
+      --tuebingen-gray: #4d4d4d; /* Dark gray for accents */
+      --background-light: #f9f9f9; /* Light background for readability */
+      --background-white: #ffffff; /* White background for content */
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--tuebingen-gray);
+      margin: 0;
+      padding: 0;
+      background-color: var(--background-light);
+    }
+
+    header {
+      background: var(--tuebingen-red);
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: var(--background-white);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--tuebingen-red);
+    }
+
+    a {
+      color: var(--tuebingen-red);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+
+    code {
+      background: #f4f4f4;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+
+    blockquote {
+      margin: 1rem 0;
+      padding: 1rem;
+      background: #f4f4f4;
+      border-left: 4px solid var(--tuebingen-red);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      font-size: 0.8rem;
+      background: var(--tuebingen-red);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p>By {{ page.author }} - {{ page.institute }}</p>
+  </header>
+  <div id="container">
+    <main>
+      {% assign headers = content | markdownify | split: '<h2>' %}
+      {% for header in headers %}
+        {% assign parts = header | split: '</h2>' %}
+        {% assign heading = parts[0] %}
+        {% assign rest = parts[1] %}
+        {% if forloop.first %}
+          {{ header | markdownify }}
+        {% else %}
+          <h2 id="{{ heading | downcase | replace: ' ', '-' }}">{{ heading }}</h2>
+          {{ rest | markdownify }}
+        {% endif %}
+      {% endfor %}
+    </main>
+  </div>
+  <footer>
+    <p>&copy; {{ "now" | date: "%Y" }} Cognitive Systems Group, University of Tübingen</p>
+  </footer>
+</body>
+</html>
