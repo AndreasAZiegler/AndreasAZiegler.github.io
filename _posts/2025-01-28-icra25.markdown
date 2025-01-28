@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Detection of Fast-Moving Objects with Neuromorphic Hardware"
-date: 2024-09-16 00:00:00 +00:00
-image: /images/arxiv24.png
+date: 2025-01-28 00:00:00 +00:00
+image: /images/icra25.png
 categories: research
 author: "Andreas Ziegler"
 authors: "<strong>Andreas Ziegler</strong>, Karl Vetter, Thomas Gossard, Jonas Tebbe, Sebastian Otte, Andreas Zell"
-venue: "arXiv"
+venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 doi: https://doi.org/10.48550/arXiv.2403.10677
-cite: /cites/arxiv24.bib
+cite: /cites/icra25.bib
 arxiv: https://arxiv.org/pdf/2403.10677.pdf
 poster:
 code:
