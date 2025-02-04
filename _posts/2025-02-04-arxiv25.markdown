@@ -1,0 +1,17 @@
+---
+layout: post
+title: "An Event-Based Perception Pipeline for a Table Tennis Robot"
+date: 2025-02-04 00:00:00 +00:00
+image: /images/arxiv25.png
+categories: research
+author: "Andreas Ziegler"
+authors: "<strong>Andreas Ziegler</strong>, Thomas Gossard, Arren Glover, Andreas Zell"
+venue: "arXiv"
+doi: https://doi.org/10.48550/arXiv.2502.00749
+cite: /cites/arxiv25.bib
+arxiv: https://arxiv.org/pdf/2502.00749
+poster:
+code:
+website:
+youtube:
+---
