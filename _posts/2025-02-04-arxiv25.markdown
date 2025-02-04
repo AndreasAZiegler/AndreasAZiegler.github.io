@@ -12,6 +12,6 @@ cite: /cites/arxiv25.bib
 arxiv: https://arxiv.org/pdf/2502.00749
 poster:
 code:
-website:
+website: https://cogsys-tuebingen.github.io/event-based-table-tennis
 youtube:
 ---
