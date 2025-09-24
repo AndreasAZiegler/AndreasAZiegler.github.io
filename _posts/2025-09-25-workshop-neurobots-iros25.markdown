@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Event-Based Vision for Fast Robot Control"
+title: "Workshop on Neuromorphic Perception for Real World Robotics"
 date: 2024-10-22 00:00:00 +00:00
 image: /images/neurobots25.png
 categories: workshop
