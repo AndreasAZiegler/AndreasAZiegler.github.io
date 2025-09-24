@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Workshop on Neuromorphic Perception for Real World Robotics"
-date: 2024-10-22 00:00:00 +00:00
+date: 2025-10-24 00:00:00 +00:00
 image: /images/neurobots25.png
 categories: workshop
 author: "Andreas Ziegler"
