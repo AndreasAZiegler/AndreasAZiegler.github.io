@@ -2,7 +2,7 @@
 layout: post
 title: "Spin Detection Using Racket Bounce Sounds in Table Tennis"
 date: 2024-09-18 00:00:00 +00:00
-image: /images/arxiv24-gossard.png
+image: /images/star25gossard.png
 categories: research
 author: "Andreas Ziegler"
 authors: "Thomas Gossard*, Julian Schmalzl*, <strong>Andreas Ziegler</strong>, Andreas Zell"
