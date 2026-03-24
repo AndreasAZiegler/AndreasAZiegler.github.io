@@ -115,7 +115,7 @@
               <a href="{{post.doi}}">doi</a> /
               {% endif %}
               {% if post.cite %}
-              <a href="{{post.cite}}">cite</a> /
+              <a class="cite-link" href="{{post.cite}}" data-cite-title="{{ post.title | escape }}">cite</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -230,7 +230,17 @@
       </td>
     </tr>
   </table>
+  <div id="bibtex-modal" class="bibtex-modal" hidden>
+    <div class="bibtex-modal__backdrop" data-bibtex-close></div>
+    <div class="bibtex-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="bibtex-modal-title">
+      <div class="bibtex-modal__header">
+        <div id="bibtex-modal-title" class="bibtex-modal__title">BibTeX</div>
+        <button type="button" class="bibtex-modal__close" data-bibtex-close aria-label="Close BibTeX dialog">&times;</button>
+      </div>
+      <pre class="bibtex-modal__content"><code id="bibtex-modal-content"></code></pre>
+    </div>
+  </div>
+  <script defer src="{{ site.baseurl }}/js/cite-popup.js"></script>
 </body>
 
 </html>
-

@@ -99,6 +99,83 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.bibtex-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bibtex-modal[hidden] {
+  display: none;
+}
+
+.bibtex-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.bibtex-modal__dialog {
+  position: relative;
+  width: calc(100% - 2rem);
+  max-width: 900px;
+  max-height: calc(100% - 2rem);
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+}
+
+.bibtex-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+}
+
+.bibtex-modal__title {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bibtex-modal__close {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: #555;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  padding: 0.25rem 0.35rem;
+}
+
+.bibtex-modal__close:focus,
+.bibtex-modal__close:hover {
+  color: #000;
+}
+
+.bibtex-modal__content {
+  margin: 0;
+  padding: 1rem;
+  overflow: auto;
+  background: #fafafa;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 12px;
+  line-height: 1.45;
+  white-space: pre;
+}
+
+body.bibtex-modal-open {
+  overflow: hidden;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
