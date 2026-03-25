@@ -8,7 +8,7 @@ author: "Andreas Ziegler"
 authors: "Thomas Gossard, Filip Radovic, <strong>Andreas Ziegler</strong>, Andrea Zell"
 venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
 doi: https://doi.org/10.48550/arXiv.2509.18387
-cite: /cites/cvprw26-gossard.bib
+cite: /cites/cvprw26gossard.bib
 arxiv: https://arxiv.org/pdf/2509.18387
 poster:
 code:
