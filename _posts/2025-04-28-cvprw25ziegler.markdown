@@ -7,7 +7,7 @@ categories: research
 author: "Andreas Ziegler"
 authors: "<strong>Andreas Ziegler</strong>*, David Josesph*, Thomas Gossard*, Emil Moldovan, Andreas Zell"
 venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
-doi: https://doi.org/10.48550/arXiv.2404.09870
+doi: https://doi.org/10.1109/CVPRW67362.2025.00493
 cite: /cites/cvprw25ziegler.bib
 arxiv: https://arxiv.org/pdf/2504.18235
 poster:
