@@ -2,7 +2,7 @@
 layout: post
 title: "BlurBall: Joint Ball and Motion Blur Estimation for Table Tennis Ball Tracking"
 date: 2026-03-24 00:00:00 +00:00
-image: /images/cvprw26-gossard.png
+image: /images/cvprw26gossard.png
 categories: research
 author: "Andreas Ziegler"
 authors: "Thomas Gossard, Filip Radovic, <strong>Andreas Ziegler</strong>, Andrea Zell"
