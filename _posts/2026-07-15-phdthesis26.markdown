@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Event-Based Computer Vision for Fast Robot Control"
+date: 2026-07-15 00:00:00 +00:00
+image: /images/phdthesis26.png
+categories: research
+author: "Andreas Ziegler"
+authors: "<strong>Andreas Ziegler</strong>"
+venue: "PhD Thesis, University of Tübingen"
+doi: https://doi.org/10.15496/publikation-122945
+cite: /cites/phdthesis26.bib
+arxiv:
+poster:
+code:
+website: https://publikationen.uni-tuebingen.de/xmlui/handle/10900/181623
+youtube:
+---
