@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Rate as a Feature, Not a Nuisance: Curriculum FiLM Training for Event-Based Graph Neural Networks"
+date: 2026-10-22 00:00:00 +00:00
+image: /images/accvw26tyagi.png
+categories: research
+author: "Andreas Ziegler"
+authors: "Kavyansh Tyagi, <strong>Andreas Ziegler</strong>"
+venue: "Asian Conference on Computer Vision Workshops (ACCVW)"
+doi: https://doi.org/10.48550/arXiv.2610.26933
+cite: /cites/accvw26tyagi.bib
+arxiv: https://arxiv.org/pdf/2610.26933
+poster:
+code: https://github.com/KAVYANSHTYAGI/CE-GNN
+website:
+youtube:
+---
