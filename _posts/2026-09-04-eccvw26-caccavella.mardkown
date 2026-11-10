@@ -11,7 +11,7 @@ doi: https://doi.org/10.48550/arXiv.2609.04088
 cite: /cites/eccvw26caccavella.bib
 arxiv: https://arxiv.org/pdf/2609.04088
 poster:
-code:
+code: https://github.com/neuromorphic-zhaw/active-semantic-understanding
 website:
 youtube:
 ---
